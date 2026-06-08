@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { season1Data, initialPlayers, defaultSeasons } from "./data/initialData";
+import { initialPlayers, defaultSeasons } from "./data/initialData";
 import { fbGet, fbSet, lload, lsave } from "./utils/storage";
 import { playerAPI } from "./services/api";
 import { getRanked, formatDate, daysBetween, daysSinceStart, toArabicOrdinal } from "./utils/helpers";
